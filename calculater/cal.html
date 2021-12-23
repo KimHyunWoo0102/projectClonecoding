@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hyun's calculater</title>
+
+    <style>
+      table,th,td{
+        border: 1px solid;
+      }
+      table{
+        width: 200px;
+        height: 300px;
+        border-collapse: collapse;
+      }
+
+      td{
+        text-align: center;
+      }
+
+      input{
+        border: None;
+        text-align: right;
+      }
+
+      input:focus{
+        outline: none;
+      }
+      /*
+      focus를 통해 커서 반짝거리는 기능을 주고
+      outline: none으로 인풋 박스를 지운다.
+      */
+    </style>
+  </head>
+  <body>
+    <h1>Hyun Woo's Calculater~~</h1>
+
+    <table>
+      <tr>
+        <td colspan="4">
+          <input type="text">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input type="text">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">AC</td>
+        <td>/</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>*</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>+</td>
+      </tr>
+      <tr>
+        <td colspan="2">0</td>
+        <td>.</td>
+        <td>=</td>
+      </tr>
+    </table>
+  </body>
+</html>
